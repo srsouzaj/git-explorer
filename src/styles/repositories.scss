@@ -3,12 +3,12 @@ section.repository-list{
 
   h1{
     margin-bottom: 16px;
-
+  }
     ul{
       list-style: none;
 
       li{
-        & +li{
+        & + li { 
           margin-top: 20px;
         }
 
@@ -26,5 +26,5 @@ section.repository-list{
         }
       }
     }
-  }
+  
 }
